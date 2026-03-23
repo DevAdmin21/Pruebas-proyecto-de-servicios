@@ -1,0 +1,190 @@
+{
+  "id": "5ba4911f-5a18-4959-b4a5-dd1af3442617",
+  "version": "2.0",
+  "name": "Servicio de terceros",
+  "url": "https://slategrey-wasp-111824.hostingersite.com/referencias.html",
+  "tests": [{
+    "id": "6021b15c-da51-413e-a28a-04bf94751100",
+    "name": "Servicio de Terceros",
+    "commands": [{
+      "id": "a76886c7-892b-4c45-97c8-16005e3d1158",
+      "comment": "",
+      "command": "open",
+      "target": "https://slategrey-wasp-111824.hostingersite.com/referencias.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04307ab4-3aaa-4f2a-b55f-2e4be612e8d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07618ce9-980c-4412-8f62-35f226fdd806",
+      "comment": "",
+      "command": "click",
+      "target": "css=#galeria-blackwork > figure:nth-child(2) a:nth-child(1)",
+      "targets": [
+        ["css=#galeria-blackwork > figure:nth-child(2) a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Eugene Chystiakov')])[2]", "xpath:link"],
+        ["xpath=//div[@id='galeria-blackwork']/figure[2]/figcaption/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://unsplash.com/@eugenechystiakov?utm_source=inkflow&utm_medium=referral')])[2]", "xpath:href"],
+        ["xpath=//figure[2]/figcaption/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win70",
+      "windowTimeout": 2000
+    }, {
+      "id": "5f7ed8e1-3e38-423b-a828-3f604212c233",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90109533-ae3f-4114-87cf-de0a528b2e26",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win70}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8927a891-c0da-4976-bf41-48a8f322c08c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a8ad3cf-75f3-40c6-990a-2cd8565134af",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bf635e4-6618-4d64-95c8-07e5ae860d5b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cereza 🍒",
+      "targets": [
+        ["linkText=Cereza 🍒", "linkText"],
+        ["css=#galeria-blackwork > figure:nth-child(3) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Cereza 🍒')]", "xpath:link"],
+        ["xpath=//div[@id='galeria-blackwork']/figure[3]/figcaption/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://unsplash.com/@cherrycomplexes?utm_source=inkflow&utm_medium=referral')]", "xpath:href"],
+        ["xpath=//figure[3]/figcaption/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cereza 🍒')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4784",
+      "windowTimeout": 2000
+    }, {
+      "id": "19110b6d-4d36-42e4-a305-14bf3f6ddd50",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4784}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cb073f7-9d61-466c-a816-7e3df0845815",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2508f05-40c6-4d3a-9e18-839c9fb34afb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "518088f3-3c99-485a-9814-bed586353a2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#galeria-color > figure:nth-child(2) a:nth-child(2)",
+      "targets": [
+        ["css=#galeria-color > figure:nth-child(2) a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Unsplash')])[7]", "xpath:link"],
+        ["xpath=//div[@id='galeria-color']/figure[2]/figcaption/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://unsplash.com/?utm_source=inkflow&utm_medium=referral')])[7]", "xpath:href"],
+        ["xpath=//div[2]/figure[2]/figcaption/a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win611",
+      "windowTimeout": 2000
+    }, {
+      "id": "985d7dcf-3815-4db4-88cb-dbfb8f5c87ee",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win611}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1da34f11-f33e-49ff-ae7d-0aee013ea1db",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Naturaleza",
+      "targets": [
+        ["linkText=Naturaleza", "linkText"],
+        ["css=li:nth-child(5) > .link-Y8n01f", "css:finder"],
+        ["xpath=//a[contains(text(),'Naturaleza')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/es/t/nature')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Naturaleza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7663a66-03c6-4273-a357-2bbae14bef1e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Texturas",
+      "targets": [
+        ["linkText=Texturas", "linkText"],
+        ["css=li:nth-child(6) > .link-Y8n01f", "css:finder"],
+        ["xpath=//a[contains(text(),'Texturas')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/es/t/textures-patterns')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Texturas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45386ef3-80f2-4356-aa36-c2df822d3846",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fcd7ffe-d506-4cd1-8101-8f33a48fcfb8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed7a0bac-c691-4be6-9492-e0d57a027177",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "171a536f-1776-4192-b281-a2f585f6dd05",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6021b15c-da51-413e-a28a-04bf94751100"]
+  }],
+  "urls": ["https://slategrey-wasp-111824.hostingersite.com/referencias.html"],
+  "plugins": []
+}

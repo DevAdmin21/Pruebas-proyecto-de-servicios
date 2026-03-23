@@ -1,0 +1,120 @@
+{
+  "id": "259f8bbe-f440-490a-a482-29af6d53e0b8",
+  "version": "2.0",
+  "name": "Servicio Base de datos",
+  "url": "https://slategrey-wasp-111824.hostingersite.com/",
+  "tests": [{
+    "id": "2b616402-d162-4352-9ed7-c69453599ed2",
+    "name": "Servicio de base de datos",
+    "commands": [{
+      "id": "116b883e-165d-499b-b783-b13990f66dd7",
+      "comment": "",
+      "command": "open",
+      "target": "https://slategrey-wasp-111824.hostingersite.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1941cae2-b1f0-432a-88ad-8ff2355be037",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "524e96d4-c738-4122-87b6-134461c6fcfc",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Identifier 'originalPrompt' has already been declared",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81a2d4d1-96b3-4a2f-9b66-c919245de889",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) > img",
+      "targets": [
+        ["css=.card:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[@alt='Alex Ink']", "xpath:img"],
+        ["xpath=//div[@id='lista']/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c431fa8-3aad-4e58-8032-9eb014b25ba2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(2) > img",
+      "targets": [
+        ["css=.card:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='Elena Moon']", "xpath:img"],
+        ["xpath=//div[@id='lista']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c167d054-6af9-4a13-a14e-7fe0568c6766",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(3) > img",
+      "targets": [
+        ["css=.card:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='Victor Real']", "xpath:img"],
+        ["xpath=//div[@id='lista']/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7041bdce-2d18-4f39-9018-e802f935143f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(3)",
+      "targets": [
+        ["css=.card:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='lista']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a036db3-cc3c-4dde-b5d5-f68d317223ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(3) > p:nth-child(3)",
+      "targets": [
+        ["css=.card:nth-child(3) > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='lista']/div[3]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Especialidad: Realismo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1d48226-3527-432a-bffa-b02cdc471541",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(3) > p:nth-child(3)",
+      "targets": [
+        ["css=.card:nth-child(3) > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='lista']/div[3]/p", "xpath:idRelative"],
+        ["xpath=//div[3]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Especialidad: Realismo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a5daf07-4e40-465c-8183-967318b01985",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0ff00e76-dfdd-4c6e-ad88-c845ea9d4347",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b616402-d162-4352-9ed7-c69453599ed2"]
+  }],
+  "urls": [],
+  "plugins": []
+}

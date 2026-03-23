@@ -1,0 +1,203 @@
+{
+  "id": "8442a1fb-aa11-4d7e-a373-52a555d866ce",
+  "version": "2.0",
+  "name": "Servicio que recibe y devuelve JSON",
+  "url": "https://slategrey-wasp-111824.hostingersite.com/cotizartatuaje.html",
+  "tests": [{
+    "id": "48091ac2-29df-4a8f-b51b-83ea9c090d23",
+    "name": "Datos Validos",
+    "commands": [{
+      "id": "7c02a1bf-dc84-480a-af28-324f9aa6cac9",
+      "comment": "",
+      "command": "open",
+      "target": "https://slategrey-wasp-111824.hostingersite.com/cotizartatuaje.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db88c78e-5903-4a7a-9203-505928d31792",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "717023f1-3698-4695-9aec-e4285c1cfc7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=inTamano",
+      "targets": [
+        ["id=inTamano", "id"],
+        ["css=#inTamano", "css:finder"],
+        ["xpath=//input[@id='inTamano']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04c1aff5-1e83-42ba-bf50-1d07a518b295",
+      "comment": "",
+      "command": "type",
+      "target": "id=inTamano",
+      "targets": [
+        ["id=inTamano", "id"],
+        ["css=#inTamano", "css:finder"],
+        ["xpath=//input[@id='inTamano']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "111"
+    }, {
+      "id": "4297be2b-ba7d-4405-91fb-a0d7ea382cc2",
+      "comment": "",
+      "command": "click",
+      "target": "id=inColor",
+      "targets": [
+        ["id=inColor", "id"],
+        ["css=#inColor", "css:finder"],
+        ["xpath=//input[@id='inColor']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73a766d6-1e74-4607-831c-14d10f2103fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=boton",
+      "targets": [
+        ["id=boton", "id"],
+        ["css=#boton", "css:finder"],
+        ["xpath=//button[@id='boton']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Obtener Presupuesto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d313c77-2289-44c4-b697-1c6f501c3eb0",
+      "comment": "",
+      "command": "click",
+      "target": "id=inColor",
+      "targets": [
+        ["id=inColor", "id"],
+        ["css=#inColor", "css:finder"],
+        ["xpath=//input[@id='inColor']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e19b2830-bdf2-4475-83ce-d9c69d43d0c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=boton",
+      "targets": [
+        ["id=boton", "id"],
+        ["css=#boton", "css:finder"],
+        ["xpath=//button[@id='boton']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Obtener Presupuesto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d59d2046-3c6f-4902-9827-09f5c1fbb613",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "75144f30-fb4f-430a-85dd-8150c2963de0",
+    "name": "Datos Invalidos",
+    "commands": [{
+      "id": "7697203b-0b02-4f03-b968-78aa469f0a93",
+      "comment": "",
+      "command": "open",
+      "target": "https://slategrey-wasp-111824.hostingersite.com/cotizartatuaje.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "241285a1-d29f-4601-a394-b47b9194cb10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9cd53c0-c6a0-4548-a880-9503082fc01f",
+      "comment": "",
+      "command": "click",
+      "target": "id=inTamano",
+      "targets": [
+        ["id=inTamano", "id"],
+        ["css=#inTamano", "css:finder"],
+        ["xpath=//input[@id='inTamano']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c6c5e9f-df2f-4d22-a34f-3886b2168918",
+      "comment": "",
+      "command": "type",
+      "target": "id=inTamano",
+      "targets": [
+        ["id=inTamano", "id"],
+        ["css=#inTamano", "css:finder"],
+        ["xpath=//input[@id='inTamano']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-5"
+    }, {
+      "id": "b7294ac9-b593-468b-b0d1-cc3d618d523a",
+      "comment": "",
+      "command": "click",
+      "target": "id=boton",
+      "targets": [
+        ["id=boton", "id"],
+        ["css=#boton", "css:finder"],
+        ["xpath=//button[@id='boton']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Obtener Presupuesto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c87d3c1-3509-4bf7-9f8e-99bfef436c75",
+      "comment": "",
+      "command": "click",
+      "target": "id=inColor",
+      "targets": [
+        ["id=inColor", "id"],
+        ["css=#inColor", "css:finder"],
+        ["xpath=//input[@id='inColor']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44497e25-ecf9-4dd9-a890-0a8b33f80ca0",
+      "comment": "",
+      "command": "click",
+      "target": "id=boton",
+      "targets": [
+        ["id=boton", "id"],
+        ["css=#boton", "css:finder"],
+        ["xpath=//button[@id='boton']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Obtener Presupuesto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9acfe8f7-50b4-42ec-af4a-d8bbbb3c0081",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "03cdd51b-f3f5-4029-a99e-cd3746c58964",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["48091ac2-29df-4a8f-b51b-83ea9c090d23"]
+  }],
+  "urls": ["https://slategrey-wasp-111824.hostingersite.com/cotizartatuaje.html"],
+  "plugins": []
+}

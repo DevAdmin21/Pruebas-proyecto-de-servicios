@@ -1,0 +1,173 @@
+{
+  "id": "d25b39c8-b210-4667-ba27-1629f4a09d4a",
+  "version": "2.0",
+  "name": "Servicio que procesa formulario",
+  "url": "https://slategrey-wasp-111824.hostingersite.com/form_contacto.html",
+  "tests": [{
+    "id": "ce829c4c-1c80-46e4-9105-6443753e191a",
+    "name": "servicio que procesa servicios.",
+    "commands": [{
+      "id": "1523432d-c287-4f91-858b-b37e4b16592b",
+      "comment": "",
+      "command": "open",
+      "target": "https://slategrey-wasp-111824.hostingersite.com/form_contacto.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5101c780-692b-4c76-855b-dac527d7a33c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f34a22a6-a99c-44cd-93db-cf99c7673dc7",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Identifier 'originalPrompt' has already been declared",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c64adba-76e9-4fdb-aea1-90301f679343",
+      "comment": "",
+      "command": "click",
+      "target": "name=cit_email",
+      "targets": [
+        ["name=cit_email", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='cit_email']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e6c5b6-3600-4362-8075-8e70ecf0f950",
+      "comment": "",
+      "command": "type",
+      "target": "name=cit_email",
+      "targets": [
+        ["name=cit_email", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='cit_email']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "24310502@alumnos.utn.edu.mx"
+    }, {
+      "id": "336cb249-2182-44bb-b98c-08bd09dffb98",
+      "comment": "",
+      "command": "click",
+      "target": "name=cit_cliente",
+      "targets": [
+        ["name=cit_cliente", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='cit_cliente']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d9179c3-37b0-43ce-9389-7afb302d39d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=cit_cliente",
+      "targets": [
+        ["name=cit_cliente", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='cit_cliente']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "pedro"
+    }, {
+      "id": "5ad56dca-8061-4bb6-ad2a-0b09f6f8cf1c",
+      "comment": "",
+      "command": "click",
+      "target": "name=cit_descripcion",
+      "targets": [
+        ["name=cit_descripcion", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='cit_descripcion']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab27e377-6a18-4c4f-adc7-6d7760fe8868",
+      "comment": "",
+      "command": "type",
+      "target": "name=cit_descripcion",
+      "targets": [
+        ["name=cit_descripcion", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='cit_descripcion']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "simba"
+    }, {
+      "id": "227784ea-a728-4a17-a458-796f5375c8f3",
+      "comment": "",
+      "command": "click",
+      "target": "name=cit_fecha",
+      "targets": [
+        ["name=cit_fecha", "name"],
+        ["css=input:nth-child(9)", "css:finder"],
+        ["xpath=//input[@name='cit_fecha']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a71171c-588b-48e8-af1c-0058feba61af",
+      "comment": "",
+      "command": "type",
+      "target": "name=cit_fecha",
+      "targets": [
+        ["name=cit_fecha", "name"],
+        ["css=input:nth-child(9)", "css:finder"],
+        ["xpath=//input[@name='cit_fecha']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "2026-03-26"
+    }, {
+      "id": "2c619e63-f47e-427e-be0d-d7976046a77f",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario']/p/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Procesa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13ee6930-d721-469d-bc87-82cdd0409e5a",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Cita guardada correctamente.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a2ab9d-6dfe-486b-b6af-c3d290bc5251",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5e901b87-bef4-4d98-8676-d5a34acfc309",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ce829c4c-1c80-46e4-9105-6443753e191a"]
+  }],
+  "urls": [],
+  "plugins": []
+}

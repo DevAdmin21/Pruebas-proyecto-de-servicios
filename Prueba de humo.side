@@ -1,0 +1,54 @@
+{
+  "id": "2372985d-3058-47a1-bd2d-5a7e3f4eb98e",
+  "version": "2.0",
+  "name": "Prueba de humo",
+  "url": "https://slategrey-wasp-111824.hostingersite.com/",
+  "tests": [{
+    "id": "1f7d454a-729e-4c46-b5e5-0dc3b5044295",
+    "name": "Prueba de humo",
+    "commands": [{
+      "id": "8e1ab302-db58-4bca-859c-5abbd2b5140b",
+      "comment": "",
+      "command": "open",
+      "target": "https://slategrey-wasp-111824.hostingersite.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "911281fb-5a1e-4855-908c-5778e458ebcf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e524dec2-cfbc-46ff-a3cb-6163073b5c80",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Identifier 'originalPrompt' has already been declared",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f9c0c56-5331-44a0-9da1-ba3166c6e551",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) > img",
+      "targets": [
+        ["css=.card:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[@alt='Alex Ink']", "xpath:img"],
+        ["xpath=//div[@id='lista']/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7b7c4d6b-b952-4a0f-ae15-f3cdb825a3da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1f7d454a-729e-4c46-b5e5-0dc3b5044295"]
+  }],
+  "urls": [],
+  "plugins": []
+}
